@@ -6,7 +6,7 @@ server.use(express.json());
 
 Number((numberOfRequests = 0));
 const projects = [];
-// test commit
+
 function checkProjectExists(req, res, next) {
   const { id } = req.params;
 
